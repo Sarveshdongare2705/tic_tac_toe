@@ -23,6 +23,12 @@ header{
     margin-bottom: 50px;
 
 }
+@media only screen and (max-width : 600px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .logo{
     display: flex;
     gap: 5px;
