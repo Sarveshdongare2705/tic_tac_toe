@@ -23,7 +23,7 @@ header{
     margin-bottom: 50px;
 
 }
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 100px){
     header{
         display: flex;
         flex-direction: column;
