@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><div class="X">Tic</div><div class="O">Tac</div><div class="X">Toe</div></div>
+        <div class="buttons">
+            <button onclick="startGame(0)" class="Xb">Computer</button>
+            <button onclick="startGame(1)" class="Ob">2 Players</button>
+        </div>
+    </header>
+    <main>
+        <div id="game">Player vs Computer</div>
+        <div id="status">Player X  turn .</div>
+        <div id="game-board">
+            <button class="cell" onclick="handleClick(0,0)"></button>
+            <button class="cell" onclick="handleClick(0,1)"></button>
+            <button class="cell" onclick="handleClick(0,2)"></button>
+            <button class="cell" onclick="handleClick(1,0)"></button>
+            <button class="cell" onclick="handleClick(1,1)"></button>
+            <button class="cell" onclick="handleClick(1,2)"></button>
+            <button class="cell" onclick="handleClick(2,0)"></button>
+            <button class="cell" onclick="handleClick(2,1)"></button>
+            <button class="cell" onclick="handleClick(2,2)"></button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
